@@ -4,7 +4,7 @@
 
   <groupId>cn.gateside</groupId>
   <artifactId>GAT</artifactId>
-  <version>2.1.12</version>
+  <version>2.1.13</version>
   <packaging>pom</packaging>
 
   <name>GAT</name>
@@ -63,6 +63,7 @@
                <configuration>
                  <serverId>oss</serverId>
                  <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                 <stagingProfileId>197702f12a9e33</stagingProfileId>
                  <autoReleaseAfterClose>true</autoReleaseAfterClose>
                </configuration>
              </plugin>
