@@ -69,7 +69,7 @@ public class InterfaceStepsCaseImporter extends StepsCaseImporter
 		testCase.ProjectID=this.project;
 		testCase.Desc=iStepsCase.Desc;
 		testCase.IsActive=iStepsCase.IsActive;
-		testCase.TestCaseKey = iStepsCase.ID.substring(0,12);
+		testCase.TestCaseKey = iStepsCase.TestCaseKey.substring(0,12);
 		return testCase;
 	}
 	

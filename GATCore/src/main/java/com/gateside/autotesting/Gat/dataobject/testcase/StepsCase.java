@@ -60,6 +60,9 @@ public class StepsCase extends TestObject
 	@Attribute(name="IsActive",required=false)
 	public Boolean IsActive=true;
 	
+	@Attribute(name="TestCaseKey",required=false)
+	public String TestCaseKey;
+	
 	
 	
 	
